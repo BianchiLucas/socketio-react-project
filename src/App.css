@@ -1,5 +1,15 @@
+html, body {
+  min-height: 100%;
+}
+body { background-color: #DAE5D0; }
+
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #F0EAD6;
 }
 
 .App-logo {
@@ -32,7 +42,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+h2 {
+  color: #F0EAD6;  
+}
+
+input[type="text"] {
+  background-color: #1C2E46;
+  border: 0;
+  color: #F0EAD6;
+}
+
+input[type="text-chat"] {
+  background-color: #0b1e2b;
+  border: 0;
+  color: #F0EAD6;
 }
